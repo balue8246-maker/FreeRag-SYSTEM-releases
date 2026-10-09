@@ -4,6 +4,22 @@
     <title>FreeRag SYSTEM</title>
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
-
+    <item>
+      <title>0.2.0 (build 36)</title>
+      <pubDate>Fri, 09 Oct 2026 02:36:44 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.2.0（build 36）</p>
+<ul>
+<li>新增「任务」页签：一句话新建任务、定时提醒、交给 AI 处理，写回飞书前先预览确认</li>
+<li>0.2 内核：项目归属更准，摘要只写变化，同一件事不再拆成多条</li>
+<li>事件页看全部会话、前情页只看本会话，标签上直接标明</li>
+<li>在一个会话里勾完成的任务，换到别的会话不会再冒出来</li>
+<li>后台花费下降，皮肤显示修正</li>
+<li>从这一版起支持软件内自动更新（菜单栏「检查更新…」）</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.2.0-b36/FreeRagSystem-0.2.0-build-36.dmg" length="94886958" type="application/octet-stream" sparkle:edSignature="stiOXhEYURNYiV35HuWKSMWfJRPz5kg+iT7qokic6Uislfa5BN1k6inKQ+G9pjeogNTWIwoI+AAvLofN8v3eAg=="/>
+    </item>
   </channel>
 </rss>
