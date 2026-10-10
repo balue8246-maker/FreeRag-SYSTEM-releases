@@ -5,6 +5,28 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.2.0 (build 38)</title>
+      <pubDate>Sat, 10 Oct 2026 00:48:11 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.2.0（build 38）</p>
+<ul>
+<li>事件页拍平：分区直接列行，不再层层套折叠；事件、前情、立场、档案四页的行写法统一，时间靠左，「原话 N ›」点开看全部原话</li>
+<li>前情新版：近 7 天一张表，更早的按需「再看 N 条」</li>
+<li>立场按事项分块：谁表了态、谁还没表态一眼看清</li>
+<li>档案人头：最近 7 天发过言的人，最多 12 个</li>
+<li>移到项目时可以直接「＋ 新建项目」，一次撤销能撤回</li>
+<li>换会话下拉带头像；任务页「返回」秒开</li>
+<li>引擎忙时页签不再自己来回跳</li>
+<li>飞书登录失效会提示，重新登录后自动恢复同步</li>
+<li>历史回填先补最近的；拉不到的会话先放一边，不拖慢其它会话</li>
+<li>你在用电脑时，后台重活会让路</li>
+<li>切会话更快、更省内存</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.2.0-b38/FreeRagSystem-0.2.0-build-38.dmg" length="95213736" type="application/octet-stream" sparkle:edSignature="XjbhjjskdPMVn6uT1k+OxHtujfHRvPmea131U/7cCWSpWj6WErFuoSCpVsEI70zU42dx2FzXmxK6yXE/SgfaCg=="/>
+    </item>
+    <item>
       <title>0.2.0 (build 37)</title>
       <pubDate>Fri, 09 Oct 2026 08:43:09 +0000</pubDate>
       <sparkle:version>37</sparkle:version>
