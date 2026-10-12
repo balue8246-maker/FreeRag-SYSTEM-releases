@@ -5,6 +5,29 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.3.0 (build 42)</title>
+      <pubDate>Mon, 12 Oct 2026 09:23:44 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.3.0 测试版（build 42）</p>
+<ul>
+<li>事件页：「要我做」「快到期」置顶，每行带一句简述；区块可以拖动排序</li>
+<li>一条消息点了几个人，每人各拆成一条待办；在编程助手里做完的待办会自动勾掉</li>
+<li>事件页底部列出正在追的事和未读数；数字都能点开</li>
+<li>任务页改版：一句话交给 AI，模块菜单（搜索、深挖、会前准备、会议纪要、对话监控、定时任务、事件追踪、写作）</li>
+<li>会议纪要读整场原话，新增「讨论了什么」；会前准备的材料能挂回飞书日程</li>
+<li>深挖先写两稿挑好的，再按章节补漏</li>
+<li>系统通知可以分种类开关，点开直达会前准备或追踪</li>
+<li>能读本地 PDF / PPTX / XLSX 和聊天里贴的飞书文档</li>
+<li>设置里能看磁盘占用、一键清理旧版残留</li>
+<li>皮肤只保留冰芯</li>
+<li>修复后台整理被索引长时间卡住；大库拉新消息不再超时</li>
+<li>连不上判断模型时自动改走备用线路，不开 VPN 也能用</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.0-b42/FreeRagSystem-0.3.0-build-42.dmg" length="96483244" type="application/octet-stream" sparkle:edSignature="Tmv/vu5MWBPqv1VXzbdc13M+RP+CKroiHa5Ytz4r4tuM/DCwSfBgO7y9OxbgKkpLAFp5ZWKPWxB0+qoatyJcDQ=="/>
+    </item>
+    <item>
       <title>0.2.1 (build 39)</title>
       <pubDate>Sat, 10 Oct 2026 09:49:59 +0000</pubDate>
       <sparkle:version>39</sparkle:version>
