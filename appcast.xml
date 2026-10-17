@@ -5,6 +5,24 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.3.2 (build 56)</title>
+      <pubDate>Sat, 17 Oct 2026 14:40:15 +0000</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>0.3.2 build 56</h3>
+<ul>
+<li>正在看的会话来了新消息，会先整理这个会话；后台忙着建索引、整理文档时也不再被挡住。</li>
+<li>面板上本人一律写「你」，包括编程助手事件树。</li>
+<li>事件页的项目树里点一个事项，事件就在这一行下面直接展开，刚点的那一行不动。</li>
+<li>切会话、后台推送时，正在读的那一行不再上下跳；勾掉后撤销也不再闪。</li>
+<li>会议纪要里的链接和妙记时间点不再显示成原始文字。</li>
+<li>复写成稿时，数字对不上出处的行会标「〔未核实〕」；引导语、客套话不再误标。</li>
+<li>菜单、按钮末尾不再带「…」；设置页不再莫名换行。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.2-b56/FreeRagSystem-0.3.2-build-56.dmg" length="98442779" type="application/octet-stream" sparkle:edSignature="rTo1QffOWm/2RrsZbzfokp1Ze4tX0Oq5VndxTipAhlgeissxkMdvEs6Mj66RsPmq3Bf+TgpTG72e0WOCbd6nAw=="/>
+    </item>
+    <item>
       <title>0.3.0 (build 42)</title>
       <pubDate>Mon, 12 Oct 2026 09:23:44 +0000</pubDate>
       <sparkle:version>42</sparkle:version>
