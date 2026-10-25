@@ -5,6 +5,45 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.3.3 (build 60)</title>
+      <pubDate>Sun, 25 Oct 2026 15:26:28 +0000</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>FreeRag SYSTEM 0.3.3：0.3 系列的最后一版，主要是更稳、更快</h3>
+<p>几项实测数字（同一台电脑，新版对比旧版）：</p>
+<ul>
+<li>邮件同步成功率从 35% 升到 100%，以前漏掉的邮件会自动补上。</li>
+<li>后台拉新消息时被挡住的次数，从 41 次里 15 次降到 93 次里 0 次。</li>
+<li>切换会话后「事件」列表弹出：1–3.5 秒 → 0.1–0.3 秒。</li>
+<li>打开会话后处理一轮：一般 15 秒 → 11 秒，慢的 33 秒 → 26 秒。</li>
+</ul>
+<h3>用起来更顺</h3>
+<ul>
+<li>面板固定在飞书主窗口旁边，切到别的程序不会自动隐藏。面板只出现在飞书所在的那个桌面，不再出现在每个桌面和调度中心（Mission Control）里。飞书全屏时，面板照样能当抽屉拉出来。</li>
+<li>切换会话后，「事件」列表 0.1–0.3 秒就出来（以前 1–3.5 秒）；左侧栏也不再要等好几秒。</li>
+<li>勾掉的反馈、待办、「你可能漏掉的」都不会再自己跳回来；勾选时整栏也不会再变灰。</li>
+<li>打字框点进去不再出现蓝色外圈；面板边上拖宽度的位置变宽了，更好按到。</li>
+</ul>
+<h3>任务更好用</h3>
+<ul>
+<li>「提醒我……」带上时间就会到点提醒，比如「8 点提醒我交报告」「每天 8 点提醒我写日报」。</li>
+<li>「帮我追踪这件事」会先把过去 90 天里相关的话找出来当底稿，之后有新进展就提醒你。</li>
+<li>会前准备、速看、纪要、日报写成连贯的文章，开头先回答你问的问题；任务说明里贴的飞书文档链接会真的去读。</li>
+<li>「复写」改名为「起草」。任务结果顶上会写清楚这次哪些事没做到（比如链接没读到）。</li>
+<li>晚上跑的日报不再漏掉 20 点以后的事；换了时区以后，定时任务按新时区的同一个钟点跑。</li>
+</ul>
+<h3>后台更省心</h3>
+<ul>
+<li>表格会先记下每个分页有哪些列、大概是什么数，问到时能先告诉你是哪张表。</li>
+<li>知识库、邮件、日历、会议纪要的同步互相不再挡着；你打开会话时拉新消息更快。邮件以前三次同步失败两次，现在修好了，以前没读到的旧邮件会在之后几轮里逐步补上。</li>
+<li>断网、合盖或换网时，不再弹「同步失败」的系统通知，网络好了会自己补上。</li>
+<li>后台引擎意外退出时，面板会把它重新拉起来。</li>
+</ul>
+<p>更新方式：菜单「检查更新」，或者等它自动提示。有问题直接在灰测群说。</p>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.3-b60/FreeRagSystem-0.3.3-build-60.dmg" length="101266716" type="application/octet-stream" sparkle:edSignature="ji0M/gku6ZVsS4Wmz6ga+rtbXQLUnMkSinKANZZLBNh5cgSRIwaG7E+mBPSnabKUK5WknI80LrPAvqQ4Xp+DDw=="/>
+    </item>
+    <item>
       <title>0.3.2.1 (build 57)</title>
       <pubDate>Sun, 18 Oct 2026 03:45:56 +0000</pubDate>
       <sparkle:version>57</sparkle:version>
