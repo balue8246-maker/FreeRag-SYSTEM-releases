@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>在 FRS 里安装技能</title>
+<meta name="description" content="把飞书卡片里的技能装进 FRS 工作台。">
+<!-- 技能分享卡片 (engine/deepdig/profile/frs-skin/skills.mjs SHARE_LANDING) 的落地页：飞书会拦掉 frs://，浏览器不会。
+     单文件、不引用任何外部资源；发布到 releases 仓库的 gh-pages，手动的，不走构建。 -->
+<style>
+  :root{
+    --s1:#F2F6F9;--s2:#FFFFFF;--hair:rgb(12 26 35/.07);--hair2:rgb(12 26 35/.11);
+    --t1:#0C1A23;--t2:#34444F;--t3:#52626F;
+    --ice:#0B7499;--ice-soft:rgb(11 116 153/.10);--ring:0 0 0 1px rgb(11 116 153/.8),0 0 0 3px rgb(11 116 153/.16);
+    --pop:0 0 0 1px rgb(12 26 35/.10),0 18px 48px -14px rgb(12 26 35/.28),0 3px 8px rgb(12 26 35/.08);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;display:flex;align-items:center;justify-content:center;padding:24px;
+    background:var(--s1);color:var(--t1);font:14px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;text-align:center}
+  main{width:100%;max-width:420px;padding:36px 28px 28px;border-radius:20px;background:var(--s2);box-shadow:var(--pop)}
+  h1{margin:18px 0 6px;font-size:19px;line-height:28px;font-weight:600}
+  p{margin:0 0 20px;color:var(--t2);font-size:14px}
+  .sub{color:var(--t3);font-size:13px}
+  /* 冰芯的 S，和面板里那个一模一样：方块拼的，没有外链 */
+  .s{width:56px;height:56px;margin:0 auto;display:block}
+  a.open{display:flex;align-items:center;justify-content:center;gap:8px;height:44px;border-radius:12px;
+    background:var(--ice);color:#fff;font-size:15px;font-weight:600;text-decoration:none}
+  a.open:hover{filter:brightness(1.06)}
+  a.open:focus-visible{outline:none;box-shadow:var(--ring)}
+  .hint{margin:20px 0 0;padding:12px 14px;border-radius:12px;background:var(--ice-soft);color:var(--t2);font-size:13px;text-align:left}
+  .hint[hidden]{display:none}
+  .hint b{color:var(--t1)}
+  .warn{margin:0;color:#B3392F;font-size:14px}
+  .foot{margin:18px 0 0;color:var(--t3);font-size:12px}
+</style>
+</head>
+<body>
+<main>
+  <svg class="s" viewBox="0 0 32 32" role="img" aria-label="FreeRag SYSTEM" title="FreeRag SYSTEM" shape-rendering="crispEdges" fill="#0B7499">
+    <path d="M12 6h14v1H12zM11 7h16v1H11zM8 8h20v1H8zM7 9h20v1H7zM6 10h11v1H6zM21 10h7v1h-7zM6 11h10v1H6zM24 11h1v1h-1zM26 11h1v1h-1zM6 12h9v1H6zM6 13h9v1H6zM6 14h18v1H6zM6 15h13v1H6zM20 15h1v1h-1zM22 15h1v1h-1zM24 15h1v1h-1zM7 16h21v1H7zM8 17h9v1H8zM18 17h1v1h-1zM20 17h1v1h-1zM22 17h1v1h-1zM24 17h1v1h-1zM26 17h1v1h-1zM17 18h11v1H17zM18 19h1v1h-1zM20 19h1v1h-1zM22 19h1v1h-1zM24 19h1v1h-1zM9 20h7v1H9zM10 21h5v1h-5zM11 22h3v1h-3zM12 23h1v1h-1z"/>
+  </svg>
+  <h1>在 FRS 里安装技能</h1>
+  <p id="lead" class="sub">正在打开 FreeRag SYSTEM…</p>
+  <a id="open" class="open" href="#" role="button" title="在 FRS 里安装这个技能" aria-label="在 FRS 里安装这个技能">打开 FRS 安装</a>
+  <div id="hint" class="hint" hidden role="status" aria-live="polite">
+    <b>没反应？</b>可能还没装 FRS，进内部群下载。
+  </div>
+  <p class="foot" id="foot">安装前 FRS 会先给你看是谁分享的、有多大。</p>
+</main>
+<script>
+(() => {
+  // = skills.mjs MESSAGE_ID / FILE_KEY / SKILL_NAME 和 Workbench.skillLink 的三条正则（测试断言两边一样）
+  const M = /^om_[A-Za-z0-9_-]{1,128}$/, F = /^file_[A-Za-z0-9_-]{1,200}$/, N = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  const lead = document.getElementById("lead"), open = document.getElementById("open"),
+    hint = document.getElementById("hint"), foot = document.getElementById("foot");
+  const q = new URLSearchParams(location.search);
+  const m = q.get("m") || "", f = q.get("f") || "", n = q.get("n") || "";
+  if (!M.test(m) || !F.test(f) || !N.test(n)) {
+    lead.textContent = "链接不完整";
+    lead.className = "warn";
+    open.hidden = true;
+    foot.textContent = "回飞书重新点一次卡片按钮。";
+    return;
+  }
+  const target = `frs://skill/install?m=${encodeURIComponent(m)}&f=${encodeURIComponent(f)}&n=${encodeURIComponent(n)}`;
+  document.title = `在 FRS 里安装 /${n}`;
+  document.querySelector("h1").textContent = `在 FRS 里安装 /${n}`;
+  open.href = target;
+  lead.textContent = "正在打开 FreeRag SYSTEM…";
+  // 页面还在（没人接走这个协议）才提示：blur / pagehide 说明浏览器切换了，而页面可见性在跳转时不变
+  let away = false;
+  const leave = () => { away = true; };
+  addEventListener("blur", leave);
+  addEventListener("pagehide", leave);
+  setTimeout(() => { if (!away) { hint.hidden = false; lead.textContent = "浏览器没有打开 FRS。"; lead.className = "warn"; } }, 1500);
+  location.href = target;
+})();
+</script>
+</body>
+</html>
