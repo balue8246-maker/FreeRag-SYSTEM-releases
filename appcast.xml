@@ -5,6 +5,21 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.3.3.1 (build 61)</title>
+      <pubDate>Tue, 27 Oct 2026 05:37:31 +0000</pubDate>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>0.3.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>0.3.3.1 更新内容</h3>
+<ul>
+<li>「要我做」里的误报少了：别人只发了一张截图或一个文件，不再被当成要你做的事；图片旁边写了请求的，照样会记下来。</li>
+<li>别人说的话不会再被记成你答应的事，别人随口的陈述和闲聊也基本不会再变成你的待办。</li>
+<li>修好了启动后首屏有时一直转圈、迟迟出不来的问题，现在几秒内就能看到内容。</li>
+<li>后台助手意外停了会自动尝试重新拉起，拉不起来时设置里会说清楚现在是什么情况、该怎么做；登录成功后，旧的「还没登录」红字会自动消失。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.3.1-b61/FreeRagSystem-0.3.3.1-build-61.dmg" length="101280257" type="application/octet-stream" sparkle:edSignature="qc/pvyf1Hf2Vswh0s7kkfiuw6AqWBakoELfQsGEn1gfvHkSFrs2jaIuBiyP5ii6lRmImifJ3z3uOJ+briZTxDA=="/>
+    </item>
+    <item>
       <title>0.3.3 (build 60)</title>
       <pubDate>Sun, 25 Oct 2026 15:26:28 +0000</pubDate>
       <sparkle:version>60</sparkle:version>
