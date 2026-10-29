@@ -5,6 +5,18 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.3.3.2 (build 62)</title>
+      <pubDate>Thu, 29 Oct 2026 15:55:45 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.3.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>0.3.3.2 更新内容</h3>
+<ul>
+<li>修好了在大陆不开 VPN 时，设置里「测试连接」测 JEV 总是报连不上的问题。后台真正用 JEV 时本来就会自动改走备用线路，现在测试按钮也一样。自己填了 JEV 地址的，仍然只连你填的地址。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.3.2-b62/FreeRagSystem-0.3.3.2-build-62.dmg" length="102122979" type="application/octet-stream" sparkle:edSignature="Vc5nrFwgOl001jzVLJ003mWzyWfPS6O1DRK0DJbBDgyJrfy0YId/Tbb1byUKgijdLwucOVuxVQTwFOmtQty4Bw=="/>
+    </item>
+    <item>
       <title>0.3.3.1 (build 61)</title>
       <pubDate>Tue, 27 Oct 2026 05:37:31 +0000</pubDate>
       <sparkle:version>61</sparkle:version>
