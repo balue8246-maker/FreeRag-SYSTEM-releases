@@ -5,6 +5,37 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.4.0 (build 63)</title>
+      <pubDate>Fri, 30 Oct 2026 11:40:07 +0000</pubDate>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>0.4.0 更新内容</h3>
+<h3>新功能</h3>
+<ul>
+<li>飞书旁边的面板改成五个页签：待办、事件、档案、问事、看数，待办单独一页，不再和事件挤在一起。</li>
+<li>新的「看数」页签：输入你想看的数，它告诉你 EB 数仓里「有」「没有」还是「说不准」，并附上依据。</li>
+<li>新的「工作台」：点面板顶上的「放大」或按 ⌘⇧↩，面板会变成一个能拉大、能全屏的独立窗口，干完点「贴回飞书」就缩回原处，没写完的字都还在。</li>
+</ul>
+<h3>改进</h3>
+<ul>
+<li>待办第一屏把每一组都列全，不再只显示前 12 条（已完成的仍显示最近 12 条）；第一屏和「更多」里的顺序也一致了。</li>
+<li>在交任务框里只是打个招呼或说声谢谢，它会回你一句，不会再当成一件任务。</li>
+<li>交任务框更懂你的话了：只看你下令的那一句，否定的、转述别人的话不算数，不是人名的词不再被当成收件人，「发给」默认是「只给我」。</li>
+<li>会前准备默认在开会前 2 小时开始，确认卡上的「开始时间」可以点开改，也可以直接说「会前 1 小时」「前一天晚上」。</li>
+<li>搜索能找到更早的聊天记录和文件了，最近的排在前面，截图上的字也能搜到（聊天里的图片、截图和语音默认会发到云端识别成文字，不想要可以在「设置 › 隐私 › 聊天里的图片和语音」里关掉）。</li>
+<li>你发给机器人的活，现在算在「我在等」里，不再变成你自己的待办。</li>
+<li>第一次设置权限时多了一个浮窗：把 App 图标拖进系统设置的列表里就能授权，不用自己找。</li>
+</ul>
+<h3>修复</h3>
+<ul>
+<li>项目只有在当前会话里真有相关消息时才标蓝；不是当前会话的事件会调暗。</li>
+<li>转发过来的聊天记录里，别人说的话不会再算到转发人头上，待办记在谁名下更准了。</li>
+</ul>
+<p>上一版（0.3.3.x）的改进都在这一版里。</p>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.0-b63/FreeRagSystem-0.4.0-build-63.dmg" length="243145852" type="application/octet-stream" sparkle:edSignature="3pGPS2/0BkeiAmMBJ85LoDj0j4HqDDKJpempK8iRdQ9Dt7eJJTXHLD69IIFVyoKJeb1b5wDRfiIxf9OP1y0/Dw=="/>
+    </item>
+    <item>
       <title>0.3.3.2 (build 62)</title>
       <pubDate>Thu, 29 Oct 2026 15:55:45 +0000</pubDate>
       <sparkle:version>62</sparkle:version>
