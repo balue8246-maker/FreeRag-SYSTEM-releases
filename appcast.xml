@@ -37,6 +37,15 @@
       <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.0-b63/FreeRagSystem-0.4.0-build-63.dmg" length="243145852" type="application/octet-stream" sparkle:edSignature="3pGPS2/0BkeiAmMBJ85LoDj0j4HqDDKJpempK8iRdQ9Dt7eJJTXHLD69IIFVyoKJeb1b5wDRfiIxf9OP1y0/Dw=="/>
     </item>
     <item>
+      <title>0.3.3.3 (build 62.1)</title>
+      <pubDate>Sat, 31 Oct 2026 13:06:45 +0000</pubDate>
+      <sparkle:version>62.1</sparkle:version>
+      <sparkle:shortVersionString>0.3.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.3.3.3（build 62.1）</p>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.3.3.3-b62.1/FreeRagSystem-0.3.3.3-build-62.1.dmg" length="131853711" type="application/octet-stream" sparkle:edSignature="obTXp+wqhxQdOIAFIBymzGRwKilfr6fbXYP0/tLah5VTGwEj/aFXv2tt5WY+SkrYEcpvlyQDQ8jYj4War9V7Cg=="/>
+    </item>
+    <item>
       <title>0.3.3.2 (build 62)</title>
       <pubDate>Thu, 29 Oct 2026 15:55:45 +0000</pubDate>
       <sparkle:version>62</sparkle:version>
