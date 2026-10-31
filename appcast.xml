@@ -10,6 +10,7 @@
       <sparkle:version>63</sparkle:version>
       <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>test</sparkle:channel>
       <description><![CDATA[<h3>0.4.0 更新内容</h3>
 <h3>新功能</h3>
 <ul>
