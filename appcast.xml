@@ -5,6 +5,26 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.4.1.5 (build 72)</title>
+      <pubDate>Wed, 11 Nov 2026 07:07:45 +0000</pubDate>
+      <sparkle:version>72</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>0.4.1.5（build 72）— 带信息上传（可选），外挂更稳，工作台不再一启动就退出</h3>
+<ul>
+<li><strong>信息上传（可选）。</strong> 设置 › 隐私 › 信息上传，可以把消息上传到公司的 Ahiru 服务器，上不上传、传多少由你选：不上传（默认）、只传事件产物、工作群、所有。不选就不上传，选了也随时可以改回不上传，从下一次同步起生效。</li>
+<li>EB 取数（EBHD）的回传默认关掉：征得你同意之前，取数用的参数、结果、备注和报告都不回传；看数时也不再转告「会自动回传公司」这类不实提示，不改动你自己装的 EBHD 的告知记录。</li>
+<li>外挂更稳：飞书没开精确读取、读不到聊天区时，也能按窗口认出飞书主窗口，照常贴在旁边（这时只贴住、不读聊天内容，需要「屏幕录制」权限）；引导和设置会检查能不能精确读取，读不到时帮你把飞书重开一次。</li>
+<li>工作台侧栏底部多了「收回成外挂」（⌘⇧↩），一下回到飞书旁边。</li>
+<li>事件卡回到 0.3 的大色块，摘要收起时最多 4 行，点开看全文。</li>
+<li>队长桌宠放大一倍；首页待办可以连着勾。</li>
+<li>升级后、或电脑闲置一阵再打开时，不再误弹首次设置、不再误报「飞书登录已过期」；首次设置也少说重复的话。</li>
+<li>工作台用久了会一启动就退出（每启动一次多存一份旧的登录信息，攒多了就打不开）：现在每次启动先清掉旧的，照常打开。</li>
+<li>首页的后台重算更省 CPU；从 DSH 等程序的终端里启动 FRS 时，工作台不再反复退出。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.1.5-b72/FreeRagSystem-0.4.1.5-build-72.dmg" length="530522135" type="application/octet-stream" sparkle:edSignature="pCrcmiTaHeTcu88HEQxrmOJb2VauGjTenfKp30Bqx/KthdzPXU81hfRvFN6xfo/iIu/fXNnAMNpPU+BIhe7hDg=="/>
+    </item>
+    <item>
       <title>0.4.0 (build 63)</title>
       <pubDate>Fri, 30 Oct 2026 11:40:07 +0000</pubDate>
       <sparkle:version>63</sparkle:version>
