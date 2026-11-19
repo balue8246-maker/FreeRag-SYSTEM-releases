@@ -5,6 +5,27 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.4.2.2 (build 78)</title>
+      <pubDate>Thu, 19 Nov 2026 08:08:06 +0000</pubDate>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>0.4.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.4.2.2（build 78）</p>
+<ul>
+<li>整套界面统一成冰芯：面板、队长对话、设置、首次设置和工作台用同一套图标、圆角和颜色；其余旧皮肤下线，原来选了别的会自动换成冰芯。</li>
+<li>Bot 换了新形象：队长和各个 Bot 在面板、对话和工作台里是同一张脸；队长也能在设置里换形象和颜色。Bot 的回复气泡加宽了，「复制」挪到气泡下面；「设置」的图标改回齿轮。</li>
+<li>主面板更干净：待办卡只留一个主按钮「交给队长」，其余操作收进 ⋯；待办页、事件页去掉了页头。</li>
+<li>工作台多了「今天」页：按上午、下午、晚上排今天的事和会，右边列出待你处理的；没有时间的待办不再显示「--:--」。</li>
+<li>工作台只有一个「设置」，七页；「账号与信息源」打开更快，一块慢了其余先出来。</li>
+<li>升级后工作台换成新版：上一次留下没退的工作台会先关掉再起新的，队长不再连着旧版。</li>
+<li>「信息上传」默认不上传；以前自动上报的电脑，升级后也要你选一档才会再传。</li>
+<li>外挂该出现却没出现时会自己补救，不抢飞书的焦点。</li>
+<li>工作台的技能页能把别家工具里的技能搬进来（默认是链接，不动原件）。</li>
+<li>修了一批问题：发到飞书超时不再误报「没发出」，会议纪要日期按本机时区，换飞书账号后云文档和邮件按账号分开读，分享技能不再带上密钥类文件。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.2.2-b78/FreeRagSystem-0.4.2.2-build-78.dmg" length="533217889" type="application/octet-stream" sparkle:edSignature="K9WOll3xPRQBdcEJwLWEozus7Ut+1oBzg90kmKxeg92Mheaxjz5hmBMZSTPARWMBNWkkWlS92tcZxAVTluOpCg=="/>
+    </item>
+    <item>
       <title>0.4.1.5 (build 72)</title>
       <pubDate>Wed, 11 Nov 2026 07:07:45 +0000</pubDate>
       <sparkle:version>72</sparkle:version>
