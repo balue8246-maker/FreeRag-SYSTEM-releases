@@ -5,6 +5,38 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.4.2.3 (build 79)</title>
+      <pubDate>Fri, 20 Nov 2026 04:10:44 +0000</pubDate>
+      <sparkle:version>79</sparkle:version>
+      <sparkle:shortVersionString>0.4.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.4.2.3（build 79）</p>
+<p>这一版只修界面和设置里的问题，没有新功能。</p>
+<p>设置</p>
+<ul>
+<li>工作台「设置」在浅色下不再是灰弹窗里贴一块白板：页面和弹窗用同一底色，卡片比底色高一级。账号页改为一次展开一节，不再五节摞成长页。页面底部有渐隐，提示下面还有内容。</li>
+<li>「用量」写明是「Bot 对话」的 token 用量，经典 Agent 的用量不再算进来。今天没用时写「今天还没用」，还在读取时写「处理中」，读不到时显示「—」，不再显示 0。头像菜单里的数和这里一致。</li>
+<li>模型卡不再显示接口地址，改为显示来源（公司统一网关、DeepSeek 开放平台、自定义接口……）。</li>
+<li>选「本地运行」后，选中的高亮立刻跟过去。</li>
+<li>「清除」Key 之前先问一句，可以取消。</li>
+<li>首次设置里保存失败后点「重试」，提交的是你刚改的选择；不会改回旧的开关，也不会换掉升级方式或补授权的范围。</li>
+<li>隐私页：开关关上后，说明文字跟着改；「编码助手」的记录在发群、建文档时一律剔除，说明改为如实描述。</li>
+<li>未授权的权限改为洋红色「!」，和面板里「要你处理」同一个颜色；索引页的来源数字能加总对上；完成页用的是新标签页的名字。</li>
+<li>DS Bot 自己的设置窗在浅色下不再是一大块白。</li>
+</ul>
+<p>面板</p>
+<ul>
+<li>卡片状态行同时有两个按钮时，不再两段都被截成省略号，时间放进按钮的提示里；顶栏显示「更新失败」时，卡片不再写「已跟上」。</li>
+<li>浅色下几处看不清的地方修好了：首次设置的完成勾、档案的分组块、待办「原话」展开块、队长的完成提示和展开后的「完成」小牌；开关打开统一是冰蓝。</li>
+<li>档案身份那一行和立场标题不再拆成两行；「⋯」按钮不再拆成上下两半；「问事」二级页的返回按钮写「‹ 问事」。</li>
+</ul>
+<p>其他</p>
+<ul>
+<li>今天页后台重建：每次重建完都至少歇 60 秒再建下一次（原来 20 秒，且忙时几乎不歇），飞书消息多时更省电。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.2.3-b79/FreeRagSystem-0.4.2.3-build-79.dmg" length="533278357" type="application/octet-stream" sparkle:edSignature="3nvDMQJRPy2BJ2tp45B+Wg3/qYKyR9TsqvNLKFciduJ+wVA8Ha7NCw7I50NySAmIMuBZjQquxprYCffnsy3+CQ=="/>
+    </item>
+    <item>
       <title>0.4.2.2 (build 78)</title>
       <pubDate>Thu, 19 Nov 2026 08:08:06 +0000</pubDate>
       <sparkle:version>78</sparkle:version>
