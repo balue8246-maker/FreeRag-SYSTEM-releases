@@ -5,6 +5,28 @@
     <link>https://balue8246-maker.github.io/FreeRag-SYSTEM-releases/</link>
     <language>zh-CN</language>
     <item>
+      <title>0.4.3 (build 83)</title>
+      <pubDate>Wed, 25 Nov 2026 07:55:41 +0000</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://nlfucxe1s5.feishu.cn/file/PlBDbZnNjoUUXQx8AmWcZOGXnyf</link>
+      <sparkle:informationalUpdate><sparkle:belowVersion>83</sparkle:belowVersion></sparkle:informationalUpdate>
+      <description><![CDATA[<p>FreeRag SYSTEM 0.4.3（build 83）</p>
+<ul>
+<li>这一版要手动装一次：自动更新的签名钥匙换了新的，从 0.4.2.x 点「更新」会提示出错。请下载 0.4.3 的安装包，拖进「应用程序」覆盖原来的，设置和数据都还在。装好以后，之后的更新照常自动来。</li>
+<li>更跟手：「今天」页在窗口重新出现或回到前台时马上刷新；数据没变时先显示上一份，后台再重建。</li>
+<li>有人撤回或编辑消息时，面板变灰等待的时间缩短了。</li>
+<li>面板还没认出飞书里打开的是哪个会话时，会写清原因、告诉你点哪里手动选，不再写「本会话还没有可看的内容」。</li>
+<li>事件页本会话「更早 N 件」放到本会话那一段的最后，点开后原地往下展开，上面的行不动。</li>
+<li>没填判断模型（Jev）的 Key 时，当前会话的判断不再一直超时；写作模型的 Key 失效时，「设置 › 同步」如实指出是写作模型。</li>
+<li>更省电：推送内容没变时面板不重画，切会话时不再每秒重读屏上的会话。</li>
+<li>用词统一：「编码助手 / 编程助手」统一叫「AI 宿主」；写作模型预设「公司统一网关」改叫「mopass 统一网关」；「持续中」和「进行中」用同一种冰蓝色。</li>
+<li>发给模型之前的脱敏只看「设置 › 隐私」里的开关（默认开）。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/balue8246-maker/FreeRag-SYSTEM-releases/releases/download/v0.4.3-b83/FreeRagSystem-0.4.3-build-83.dmg" length="532879134" type="application/octet-stream" sparkle:edSignature="CwiTL9YzQJkKP+jB03wI0bQBhs8LfywpnG36Lfd56EYPSHy7F+8aKJm2Dxdk7miKe32B9Nj7HjkJjo3ZcujhDw=="/>
+    </item>
+    <item>
       <title>0.4.2.3 (build 79)</title>
       <pubDate>Fri, 20 Nov 2026 04:10:44 +0000</pubDate>
       <sparkle:version>79</sparkle:version>
